@@ -1,0 +1,17 @@
+<gemRst>
+	<segmentation>
+		<segment id="s-02.01" xref="u-02.02">2000 CALORIES A DAY IS ALL MOST ADULTS SHOULD EAT</segment>
+		<segment id="s-02.02" xref="u-02.02" alt="Photograph: A plateful of burrito with toppings of guacamole, sour cream and tomatoes"/>
+		<segment id="s-02.03" xref="u-02.04">1170 CALORIES</segment>
+		<segment id="s-02.04" xref="u-02.05">Chicken burrito with all toppings</segment>
+		<segment id="s-02.05" xref="u-02.06">If this is lunch, is there room for dinner?</segment>
+		<segment id="s-02.06" xref="u-02.07" alt="Logo: Calorie Education Campaign"/>
+	</segmentation>
+	<rst-structure>
+		<span id="span-02.01" nucleus="span-02.02" satellites="s-02.01" relation="preparation"/>
+		<span id="span-02.02" nucleus="s-02.06" satellites="span-02.03" relation="motivation"/>
+		<span id="span-02.03" nucleus="span-02.04" satellites="s-02.05" relation="elaboration"/>
+		<span id="span-02.04" nucleus="s-02.03" satellites="span-02.05" relation="elaboration"/>
+		<mini-span id="span-02.05" attribuend="s-02.02" attribute="s-02.04" relation=" identification"/>
+	</rst-structure>
+</gemRst>
